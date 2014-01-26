@@ -45,6 +45,9 @@
 @property (nonatomic, assign) BOOL showAutocompleteButton;
 @property (nonatomic, assign) id<HTAutocompleteTextFieldDelegate> autoCompleteTextFieldDelegate;
 
+/// Force completion
+- (IBAction)autocompleteText:(id)sender;
+
 /*
  * Configure text field appearance
  */

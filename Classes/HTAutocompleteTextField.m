@@ -284,7 +284,7 @@ static NSObject<HTAutocompleteDataSource> *DefaultAutocompleteDataSource = nil;
 }
 
 // Method fired by autocompleteButton for multiRecognition
-- (void)autocompleteText:(id)sender
+- (IBAction)autocompleteText:(id)sender
 {
     if (!self.autocompleteDisabled)
     {
